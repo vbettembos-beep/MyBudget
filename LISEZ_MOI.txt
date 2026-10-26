@@ -1,0 +1,18 @@
+MON BUDGET — VERSION WEB INSTALLABLE (PWA)
+
+Ce dossier est prêt à être publié comme site statique HTTPS. L’hébergement ne contient que les fichiers de l’application : les opérations, revenus, dépenses, enveloppes et factures restent dans le stockage local du navigateur sur chaque appareil. Aucun compte bancaire ni serveur de données n’est utilisé.
+
+IMPORTANT : pour installer l’icône sur iPhone et garantir le cache hors ligne, l’application doit être ouverte une première fois depuis une adresse HTTPS. Le fichier HTML ouvert directement depuis Fichiers ne permet pas d’installer une vraie web-app hors ligne de façon fiable.
+
+Installation iPhone après publication HTTPS :
+1. Ouvrir l’adresse du site dans Safari sur l’iPhone.
+2. Toucher Partager.
+3. Choisir « Ajouter à l’écran d’accueil ».
+4. Valider le nom « Mon Budget ».
+5. Lancer l’icône une fois avec Internet pour que les fichiers soient mis en cache. Puis tester le mode avion.
+
+Sur PC : ouvrir la même adresse dans Edge ou Chrome.
+
+SAUVEGARDES : exporter régulièrement le fichier JSON depuis l’onglet Sauvegarde. Conserver ce fichier dans un endroit sûr. Importer la sauvegarde séparément sur chaque appareil. Les données ne se synchronisent pas automatiquement.
+
+CONFIDENTIALITÉ : le code de l’application peut être hébergé sur un service statique gratuit, mais les données budgétaires ne sont pas envoyées au site. Éviter de publier des sauvegardes JSON : elles contiennent vos informations financières.
